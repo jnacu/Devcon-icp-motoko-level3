@@ -9,8 +9,12 @@
     "Canister"
   ],
   "scripts": {
+<<<<<<< HEAD
     "prebuild": "wsl dfx generate portfolio_template_backend",
     "build": "react-scripts build",
+=======
+    "build": "webpack",
+>>>>>>> a331e7f33d8d3d09c0c007946bb8579fc2328330
     "start": "webpack serve --mode development --env development",
     "deploy:local": "dfx deploy --network=local",
     "deploy:ic": "dfx deploy --network=ic",
